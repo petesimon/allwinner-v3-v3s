@@ -1,0 +1,4 @@
+# Allwinner V3(s) device such as an action camera or a Lichee Pi Zero board
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", MODE="0660"
+
+GROUP="plugdev", SYMLINK+="android%n"

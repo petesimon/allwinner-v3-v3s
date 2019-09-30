@@ -1,0 +1,34 @@
+SoC:  
+   Allwinner V3 
+Product:  
+   jufukang179-sdv
+Manufacturer:  
+   lzm
+Short id:  
+   jufukang
+OEM id:  
+   zhongxing
+Camera type:  
+   YM6182
+FW orig. date:  
+   20171117
+FW mod. date:  
+   20171114
+Camera name:  
+   Q8
+Version:  
+   20171117
+LCD model:  
+   gc9305
+LCD resolution:  
+   320x240  
+LCD count:  
+   1
+Sensor model:  
+   imx179
+Wifi:
+   xradio
+Logo:
+   Excelvan
+
+  

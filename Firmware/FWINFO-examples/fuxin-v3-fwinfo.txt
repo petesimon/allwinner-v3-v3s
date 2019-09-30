@@ -1,0 +1,32 @@
+﻿SoC:  
+   Allwinner V3 
+Product:  
+   fuxin4k30imx179s90fps-sdv
+Manufacturer:  
+   lzm
+Short id:  
+   fuxin
+OEM id:  
+   welcome
+Camera type:  
+   fx2830
+FW orig. date:  
+   20170517
+FW mod. date:  
+   20170315
+Camera name:  
+      ?
+Version:  
+   20170102 V2 3
+LCD model:  
+   st7789vshxb
+LCD resolution:  
+   320x240  
+LCD count:  
+   1
+Sensor model:  
+   imx179s
+Logo:
+   Snowboader / Skier
+Wifi:
+    Ⓧradio

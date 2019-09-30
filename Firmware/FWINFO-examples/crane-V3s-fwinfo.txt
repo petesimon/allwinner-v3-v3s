@@ -1,0 +1,24 @@
+
+SoC:  
+   Allwinner V3s 
+Product:  
+   crane-sdv
+Manufacturer:  
+   zhouhongbiao
+FW date:  
+   20170412
+Camera name:  
+   Explorer ES
+Version:  
+   ESV01
+LCD model:  
+   ili9341
+LCD resolution:  
+   320x240  
+Sensor model:  
+   gc2023_mipi_2lane
+Logo:
+   MGCOOL
+full_img.fex size:
+   8388608 bytes
+

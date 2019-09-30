@@ -1,0 +1,8 @@
+Hello,
+I really appreciate all of your hard work, but I had to modify the scrpit to get it to work with my camera. 
+I have included the new "backup2.cmd" script in the zip so that you can see if what I did gives you the right results for my camera.
+I have a CamPak ACT74, the script failed at "dd" becuase the "dd" command didn't exist in the /system/bin/ directory.  I tried replacing it with "cp" but that gave me zero byte files so instead I replaced it with adb pull and rearanged a few other commands.  
+
+I hope it still works. 
+
+@MattBatt - Goprawn forums

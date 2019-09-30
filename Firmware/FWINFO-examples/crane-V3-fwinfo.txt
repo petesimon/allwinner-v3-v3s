@@ -1,0 +1,17 @@
+Product:  
+   crane-sl603tsfx
+Manufacturer:  
+   quhongbo
+FW date:  
+   20170209
+Camera name:  
+   V3
+Version:  
+   20170210V4.0
+LCD model:  
+   ili9341
+LCD resolution:  
+   320x240  
+Sensor model:  
+   imx179
+  
