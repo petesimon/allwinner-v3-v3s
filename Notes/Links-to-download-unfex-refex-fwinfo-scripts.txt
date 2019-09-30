@@ -1,0 +1,39 @@
+These are very useful links to @nutsey's v0.4 UNFEX REFEX FWINFO GETFWINFO (etc) scripts for
+manipulating 'full_img.fex files'. I and other people have modified these scripts to add a
+compression or other functions.
+More info is on https://www.goprawn.com forums, in the Allwinner V3 and V5 sections.
+Also check the Facebook group https://fb.com/groups/allwinner4kcamerasusergroup for updates.
+( If you are looking for scripts to make a backup copy of firmware from your camera, then open this other link )
+( https://glot.io/snippets/fcg8vyjyyv/raw/backup-scripts-windows-mac-linux.txt )
+
+These scripts are for full_img.fex files that are 12058624 bytes size, and other sizes of full_img.fex may work but I'm not sure.
+file "unfex-scripts-getfwinfo_20170424_update.zip"
+download here - https://www.dropbox.com/s/fnb4c3ypxycbapd/unfex-scripts-getfwinfo_20170424_update.zip?dl=0
+
+*UPDATE
+For Linux. These are .sh shell scripts to run in Linux. These scripts are for 12058624 bytes size full_img.fex
+Install 'squashfs-tools' package and install Java JRE first.
+file "unfex-refex-sh-linux-12058624.tar.gz"
+download here - https://is.gd/JpS1yA 
+or download here - https://drive.google.com/open?id=1ZdVYbe2TA08ERSKH-HAqB4x87a92bTmA
+
+*UPDATE
+if you have a full_img.fex file 7798784 bytes size from a FuriBee "F60" or similar camera, then try these scripts:
+file "unfex-scripts-getfwinfo_20171029_small_fw.zip"
+download here - https://www.dropbox.com/s/vf22hrxgglwrmgc/unfex-scripts-getfwinfo_20171029_small_fw.zip?dl=0
+
+*UPDATE
+if you have full_img.fex file 8126464 bytes size from newer 2018-2019 cameras such as the Uten or similar camera, then try these scripts.
+file "unfex-scripts-getfwinfo_20190521_small_fw_8126464.zip"
+download here - https://www.dropbox.com/s/6n6f4i8r3u4pssa/unfex-scripts-getfwinfo_20190521_small_fw_8126464.zip?dl=0
+
+*UPDATE
+if you have full_img.fex file 12910592 bytes size from a Yi Discovery or a clone of that camera then try these scripts:
+file "unfex-scripts-getfwinfo_20180503_yidiscovery.zip"
+download here - https://my.pcloud.com/publink/show?code=DE2
+
+*UPDATE 2019-09-23
+if you have a full_img.fex file bytes size 11010048 from a HDKing or Ausek V316 (not V3) camera then try these
+UNFEX REFEX FWINFO scripts in Windows. file "unfex-scripts-getfwinfo_20190923_V316.zip"
+download here - https://www.dropbox.com/s/12xljkf9pbca2ch/unfex-scripts-getfwinfo_20190923_V316.zip?dl=0
+*

@@ -1,0 +1,44 @@
+Some of tutorial and tips videos have been posted in the forums, but those posts may be difficult to quickly find. So, this new topic thread can serve you to have as many as possible tutorials, tips, and helpful things. Please add you tutorial, guides, tips and helpful things in this topic thread here also.
+
+Well ,here are some videos that can be useful to help you do various tasks with your camera. * You may need to see and read the description box of some videos (in a youtube tab/window) so that you can download files -- so in that case, open the link to the video:
+
+*** DO THIS FIRST ***
+How To Backup and Share your Action Camera Firmware
+Link - https://www.youtube.com/watch?v=QrhPxpFFMrc
+
+*** AGAIN, DO THE BACKUP OF YOUR FIRMWARE FIRST ***
+
+How to use the 4k action camera tutorial
+Link - https://www.youtube.com/watch?v=6T3fYzRV1Bk
+
+Tips for under water video recording (GoPro, but it should work for AllwinnerV3 cameras too...)
+Link - https://www.youtube.com/watch?v=VQoKLpx6_mk
+
+How to recover (unbrick) a bricked camera *** BACKUP YOUR FIRMWARE FIRST *** | *** CAUTION: the firmware you flash must %100 compatible ***
+Link - https://www.youtube.com/watch?v=fdjEcRlpYTU
+
+How to flash (write) newer firmware to your camera *** BACKUP YOUR FIRMWARE FIRST *** |*** CAUTION: the firmware that you flash must be %100 compatible, unless you are willing to modify the firmware data yourself
+Link - https://www.youtube.com/watch?v=QrTxFjIiHvc
+
+Customize boot and power off logos of your camera
+Link - https://www.youtube.com/watch?v=e-reYQOCgkM
+
+Disassemble and lens (re) focus guide
+Link - https://www.youtube.com/watch?v=y7pTPUuZT1U
+
+(Re) focus SJ4000 guide
+Link - https://youtu.be/wsn4fGH_vMM
+
+Disassembling the camera
+Link - https://www.youtube.com/watch?v=q4rbUA8sqNY
+
+Action cam teardown (disassembly), air ventilation solution, part 1 (also see part 2, below)
+Link - https://www.youtube.com/watch?v=K0pQCSTm-N8
+
+Action cam teardown (disassembly), air ventilation solution, part 2
+Link - https://www.youtube.com/watch?v=yb1Hnlk6zI0
+
+------
+
+See Goprawn forums https://www.goprawn.com and the FB group http://bit.ly/allwinnerv3-camera-group for more information. Contact me directly at http://fb.com/psvangorp 
+

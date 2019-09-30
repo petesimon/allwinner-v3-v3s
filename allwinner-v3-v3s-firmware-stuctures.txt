@@ -1,0 +1,45 @@
+﻿
+12 MB firmware structure (V3 chip):
+0x000000 - 03FFFF u-boot (script.bin starts from 032000)
+0x040000 - 2FFFFF boot (kernel)
+0x300000 - 92FFFF system (mounted as read-only squashfs)
+0x930000 - B2FFFF config (/data)
+0xB30000 - B4FFFF boot logo (jpeg)
+0xB50000 - B6FFFF shutdown logo (jpeg)
+0xB70000 - B7FFFF env (u-boot params)
+
+8 MB firmware structure (V3 chip) "v1":
+0x000000 - 03FFFF u-boot (script.bin starts from 032000)
+0x040000 - 29FFFF boot (kernel)
+0x2A0000 - 75FFFF system (mounted as read-only squashfs)
+0x760000 - 7DFFFF config (/data)
+0x7E0000 - 7EFFFF boot/shutdown logo (jpeg)
+0x7F0000 - 7FFFFF env (u-boot params)
+
+8 MB firmware structure (V3 chip) "v2":
+0x000000 - 03FFFF u-boot (script.bin starts from 032000)
+0x040000 - 29FFFF boot (kernel)
+0x2A0000 - 74FFFF system (mounted as read-only squashfs)
+0x750000 - 7CFFFF config (/data)
+0x7D0000 - 7DFFFF boot logo (jpeg)
+0x7E0000 - 7EFFFF shutdown logo (jpeg)
+0x7F0000 - 7FFFFF env (u-boot params)
+
+8 MB firmware structure (V3s chip) "v1":
+0x000000 - 03FFFF u-boot (script.bin starts from 032000)
+0x040000 - 2DFFFF boot (kernel)
+0x2E0000 - 74FFFF system (mounted as read-only squashfs)
+0x750000 - 7CFFFF config (/data)
+0x7D0000 - 7DFFFF boot logo (jpeg)
+0x7E0000 - 7EFFFF shutdown logo (jpeg)
+0x7F0000 - 7FFFFF env (u-boot params)
+
+8 MB firmware structure (V3s chip) "v2":
+0x000000 - 03FFFF u-boot (script.bin starts from 032000)
+0x040000 - 2EFFFF boot (kernel)
+0x2F0000 - 74FFFF system (mounted as read-only squashfs)
+0x750000 - 7CFFFF config (/data)
+0x7D0000 - 7DFFFF boot logo (jpeg)
+0x7E0000 - 7EFFFF shutdown logo (jpeg)
+0x7F0000 - 7FFFFF env (u-boot params)
+Last edited by nutsey; 08-14-2017, 12:50 AM.

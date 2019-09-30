@@ -1,0 +1,84 @@
+How to flash (write) newer firmware to Allwinner V3(s) cameras.
+Video  https://www.youtube.com/watch?v=QrTxFjIiHvc
+﻿---------
+
+F60B ADB Driver
+https://www.dropbox.com/s/bnbk25odwqtg9rd/F60B_ADB_driver.zip?dl=1
+
+Universal USB drivers and ADB for Android devices:
+https://www.dropbox.com/s/4cfpfh6qqg2azum/ADB_Installer_15_Second_v1.4.3.zip?dl=1
+-- install and answer yes to all prompts
+
+F60B Recovery Driver (this is NOT ADB [android debug] driver, see above)
+https://www.dropbox.com/s/fqplk0judxm08a4/F60B_recovery_driver.zip?dl=1
+
+Alternate Recovery Driver (if F60B Recovery Driver does not work, this is NOT ADB driver)
+https://www.dropbox.com/s/ittv0ulwwetlp4u/PhoenixSuit_Drivers.zip?dl=1
+
+---------
+
+'makeimg' tool, to make an image file compatible with PhoenixSuit
+https://www.dropbox.com/s/tothsp7rgvy7ks5/makeimg-goprawn.zip?dl=1
+
+'PhoenixSuit' tool, to flash an image file to your camera via USB cable
+https://www.dropbox.com/s/ap8rbbuj4td0d83/PhoenixSuit_V1.10.rar?dl=1
+
+---------
+
+F60B 4k Action Camera, product item on Gearbest.com (yellow)
+http://www.gearbest.com/action-cameras/pp_355296.html
+
+---------
+
+more drivers -- online shared folder
+https://www.dropbox.com/sh/aylp0e0u6wlh3fu/AAARtRbwKrJcUJVkJ0pUdC4ba?dl=0
+
+more tools -- online shared folder
+https://www.dropbox.com/sh/8ejgo7ccz0814p6/AAAmE4JHVZFG2688oO2NToyCa?dl=0
+
+---------
+
+*** Please make a copy backup of your firmware and share it online
+*** BEFORE you flash other firmware to the camera !!!
+* watch this video https://www.youtube.com/watch?v=QrhPxpFFMrc
+
+MTD blocks info, and img files meta info -- notes
+http://bit.ly/AllwinnerV3mtdblocksimgfilesmetainfo
+
+More notes about F60B and other AllwinnerV3 cameras
+http://bit.ly/NotesF60BAllwinnerV3Camera
+
+more -- Instructional Help Tutorial Videos
+https://www.youtube.com/playlist?list=PLTfA7SKN8VXJ7uHMn2YVATvK04TF37SED
+
+Visit the Allwinner V3 camera users group on Facebook http://bit.ly/allwinnerv3-camera-group 
+- you can contact me there in Facebook http://fb.com/psvangorp 
+
+Link to list of firmwares, page 1, post #8. * Choose carefully! *
+https://www.goprawn.com/forum/allwinner-cams/25-allwinner-v3-sony-imx179-s-and-omnivision-ov4689-action-cameras?p=130#post130
+
+Goprawn forums - Allwinner cameras forum - multiple threads
+https://www.goprawn.com/forum/allwinner-cams
+
+Dashcamtalk Forums - Allwinner cameras forum thread
+https://dashcamtalk.com/forum/threads/hacking-q3h-allwinner-v3-camdroid.20507/
+
+Share your firmware without an account to this folder:
+https://www.dropbox.com/request/NUqzrXSnEOR72QUz3kLn
+- Notice:  valid firmware files only. but spam junk files will be deleted
+- I will post your firmware to www.Goprawn.com forums and to my Facebook group.
+
+---------
+
+Link back to this same youtube video
+https://youtu.be/QrTxFjIiHvc
+
+Link to other video "How To Backup & Share Allwinner V3 Firmware"
+! DO THIS FIRST !
+https://youtu.be/QrhPxpFFMrc
+
+Link to MP4 file copy of this video (yandex cloud storage)
+https://yadi.sk/i/Q3PsgOPK32XDM6
+
+Short link back to this notes text document
+http://bit.ly/2h19sjr
