@@ -1,0 +1,68 @@
+Here is a list of backup scripts for pulling a backup copy of firmware from Allwinner V3, V316, V5 and similar action cameras.
+( If you want UNFEX-REFEX scripts for manipulating 'full_img.fex' files, then see this other link)
+( https://glot.io/snippets/fcg8vyjyyv/raw/backup-scripts-links-list.txt )
+( -- 'backup-scripts' should be 'unfex-refex-scripts' but it's a mistake, ignore it-- )
+
+If a backup script does not work for you, then you could just install 'adb' software, connect
+your Allwinner Vx camera to your computer via USB, and run the commands shown at the bottom
+of this text. Scroll down to the end of this text file.
+
+Video tutorial on YT to show you how to do the backup process - https://www.youtube.com/watch?v=QrhPxpFFMrc
+
+Open and read the " readme.txt " file inside each .zip file that you download.
+
+* In Windows, you must first DISABLE DRIVER SIGNATURE ENFORCEMENT *
+
+Allwinner V3(s) backup script for Windows, with zip compression.
+download here - https://www.dropbox.com/s/n1p5oeikxj21f5i/backup-script-zipcompress.zip?dl=0
+
+Allwinner V3(s) backup script for Windows, with rar compression. This is RAR version 5 (RAR5) http://rarlab.com .
+download here - https://www.dropbox.com/s/m9rmzo7azbjl3zs/backup-script-rarcompress.zip?dl=0
+
+Allwinner V3(s) backup script for * Linux *, with zip compression. Works best in Debian, Ubuntu, Mint, Peppermint, (etc).
+download here - https://www.dropbox.com/s/txrjqgu8nbqsdl2/backup-script-linux-zipcompress.zip?dl=0
+
+Allwinner V316 (Q6H) backup script for Windows, with rar compression. http://rarlab.com
+download here - https://www.dropbox.com/s/1c9r63yxxytv2wk/backup-script-rarcompress-V316.zip?dl=0
+
+Allwinner V316 (Q6H) backup script for * Linux * with zip compression. Works best in Debian, Ubuntu, Mint, Peppermint, (etc).
+download here - https://www.dropbox.com/s/njttfc9c3j23hyc/backup-script-linux-V316-zipcompress.zip?dl=0
+
+Allwinner V316 (Q6H) backup script for * Linux * with RAR compression. Works best in Debian, Ubuntu, Mint, Peppermint, (etc).
+download here - https://www.dropbox.com/s/83e2qgd5l7edohv/backup-script-linux-V316-rarcompress.zip?dl=0
+
+Allwinner V3(s) backup script for MacOS, with zip compression.
+download here - https://www.dropbox.com/s/kb1y0gxbohgqjxo/backup-script-MacOSX.zip?dl=0
+- for more information, see posts #2 and #3 here
+- https://www.goprawn.com/forum/allwinner-cams/14283-uten-4k-need-help-dumping-the-rom?p=14298#post14298
+- click a down arrow under the post # to expand all comments, and then read all comments.
+
+There is more information in post #9 here.
+- https://www.goprawn.com/forum/allwinner-cams/25-allwinner-v3-s-imx179-s-ov4689-and-gc2023-action-cameras
+- and in post #642 here
+- https://www.goprawn.com/forum/allwinner-cams/25-allwinner-v3-s-imx179-s-ov4689-and-gc2023-action-cameras?p=15025#post15025
+- click a down arrow under the post # to expand all comments, and then read all comments.
+
+Contact me directly in Facebook here - https://fb.com/psvangorp
+or contact me in this FB group - https://fb.com/groups/allwinner4kcamerasusergroup
+
+# Do the commands one-by-one to get firmware from a camera and save it to your
+# computer, and to make a 'full_img.fex' file.
+#################################################################################
+adb kill-server
+adb root
+adb remount
+adb pull /dev/block/mtdblock0 0-uboot.img
+adb pull /dev/block/mtdblock1 1-boot.img
+adb pull /dev/block/mtdblock2 2-system.img
+adb pull /dev/block/mtdblock3 3-config.img
+adb pull /dev/block/mtdblock4 4-blogo.img
+adb pull /dev/block/mtdblock5 5-slogo.img
+adb pull /dev/block/mtdblock6 6-env.img
+#################################################################################
+# next command is for Linux/Unix/Mac to make a full_img.fex file
+cat 0-uboot.img 1-boot.img 2-system.img 3-config.img 4-blogo.img 5-slogo.img 6-env.img > full_img.fex
+#################################################################################
+# next command is for Windows to make a full_img.fex file
+copy /b 0-uboot.img+1-boot.img+2-system.img+3-config.img+4-blogo.img+5-slogo.img+6-env.img full_img.fex
+#################################################################################
