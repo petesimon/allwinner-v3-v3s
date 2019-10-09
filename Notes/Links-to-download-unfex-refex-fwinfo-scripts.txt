@@ -14,8 +14,8 @@ download here - https://www.dropbox.com/s/fnb4c3ypxycbapd/unfex-scripts-getfwinf
 For Linux. These are .sh shell scripts to run in Linux. These scripts are for 12058624 bytes size full_img.fex
 Install 'squashfs-tools' package and install Java JRE first.
 file "unfex-refex-sh-linux-12058624.tar.gz"
-download here - https://is.gd/JpS1yA 
-or download here - https://drive.google.com/open?id=1ZdVYbe2TA08ERSKH-HAqB4x87a92bTmA
+More information here - https://is.gd/JpS1yA 
+and download here - https://drive.google.com/open?id=1ZdVYbe2TA08ERSKH-HAqB4x87a92bTmA
 
 *UPDATE
 if you have a full_img.fex file 7798784 bytes size from a FuriBee "F60" or similar camera, then try these scripts:
